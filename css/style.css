@@ -18,3 +18,36 @@ body {
 }
 
 /* Write all remaining styles here */
+header h1 {
+    padding-bottom: 10px;
+    margin: 0 0 5px;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: 'Baskerville', serif;
+    border-bottom: 1px solid #ccc;
+}
+header h1 a{
+	text-decoration:none;
+	color:#acbdb7;  
+}
+header h1:hover{
+	
+	color:#333;  
+}
+header img{
+	border:5px solid #acbdb7;
+}
+h2{
+	color:#acbdb7;
+}
+#press img{
+	border:5px solid #ccc;
+    transition: all 0.2s ease;	
+}
+#press img:hover{
+	border:5px solid #6f7f7a;
+    
+}
+footer{
+	text-align:right;
+}
